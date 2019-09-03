@@ -28,9 +28,7 @@
         "sites_aws_app_name": "[toLower(concat(parameters('sitesPrefix'),'-app'))]",
         "components_aws_app_name": "[toLower(concat(parameters('sitesPrefix'),'-app'))]",
         "serverfarms_plan_name": "[toLower(concat(variables('locationCode'),'plan'))]",
-        "storageAccounts_aws_name": "[toLower(concat(parameters('sitesPrefix'),'appstorage'))]",
-        "subscriptionId": "[subscription().id]",
-        "singleQuote": "'"
+        "storageAccounts_aws_name": "[toLower(concat(parameters('sitesPrefix'),'appstorage'))]"
     },
     "resources": [
         {
