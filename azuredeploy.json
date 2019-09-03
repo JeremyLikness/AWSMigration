@@ -2,7 +2,7 @@
     "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-        "sites_prefix": {
+        "sitesPrefix": {
             "defaultValue": "aws",
             "type": "string",
             "metadata": {
@@ -25,10 +25,10 @@
     "variables": {
         "location": "[parameters('siteLocation')]",
         "locationCode": "[toLower(replace(variables('location'), ' ', ''))]",
-        "sites_aws_app_name": "[toLower(concat(parameters('sites_prefix'),'-app'))]",
-        "components_aws_app_name": "[toLower(concat(parameters('sites_prefix'),'-app'))]",
+        "sites_aws_app_name": "[toLower(concat(parameters('sitesPrefix'),'-app'))]",
+        "components_aws_app_name": "[toLower(concat(parameters('sitesPrefix'),'-app'))]",
         "serverfarms_plan_name": "[toLower(concat(variables('locationCode'),'plan'))]",
-        "storageAccounts_aws_name": "[toLower(concat(parameters('sites_prefix'),'appstorage'))]",
+        "storageAccounts_aws_name": "[toLower(concat(parameters('sitesPrefix'),'appstorage'))]",
         "subscriptionId": "[subscription().id]",
         "singleQuote": "'"
     },
