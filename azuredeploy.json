@@ -4,11 +4,14 @@
     "parameters": {
         "sites_prefix": {
             "defaultValue": "aws",
-            "type": "string"
+            "type": "string",
+            "metadata": {
+                "description": "Pick a unique suffix so the names don't conflict. For example, consider adding your initials or the date, i.e. aws20190922."
+            }
         },
         "siteLocation": {
             "type": "string",
-            "defaultValue": "eastus"
+            "defaultValue": "East US"
         },
         "repoUrl": {
             "type": "string",
