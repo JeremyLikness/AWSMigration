@@ -2,6 +2,8 @@
 
 This is the source code for the "Moving from Lambda to Azure Functions" video series that demonstrates how to migrate from AWS Lambda to Azure Functions.
 
+🎦 [Watch the video series](https://www.youtube.com/playlist?list=PL1VfiVM16kp8U5E7U2tfJdskXJg8DPPKL) (YouTube playlist)
+
 ## Quick Start
 
 You can get started quickly with the migrated function. Simply click or tap the "Deploy to Azure" button. Be sure to enter a unique prefix (for example, use your initials or add a sequence). After the deployment is done, you can access and test the function.
