@@ -28,8 +28,11 @@ The source for the AWS Lambda function is in `aws\isItAPrime.js`.
 
 The portal-based version of the Azure Function is available under `azure\portal`.
 
+The actual code produced in Part 5 for local functions is under `azure\local`.
+
 ## Resources
 
 * [Comparison of AWS and Azure services](https://docs.microsoft.com/azure/architecture/aws-professional/services?WT.mc_id=awsmigration-github-jeliknes)
 * [Azure Functions JavaScript developer guide](https://docs.microsoft.com/azure/azure-functions/functions-reference-node?WT.mc_id=awsmigration-github-jeliknes)
 * [Introduction to Azure Storage](https://docs.microsoft.com/azure/storage/common/storage-introduction?WT.mc_id=awsmigration-github-jeliknes)
+* [Azure Functions Core Tools](https://docs.microsoft.com/azure/azure-functions/functions-run-local?WT.mc_id=awsmigration-github-jeliknes)
