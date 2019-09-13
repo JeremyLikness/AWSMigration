@@ -6,6 +6,8 @@ This is the source code for the "Moving from Lambda to Azure Functions" video se
 
 ## Quick Start
 
+[![Free Azure Account](https://img.shields.io/badge/FREE-Azure-0077ff)](https://jlik.me/gmj) Get your [Free Azure Account](https://jlik.me/gmj)
+
 You can get started quickly with the migrated function. Simply click or tap the "Deploy to Azure" button. Be sure to enter a unique prefix (for example, use your initials or add a sequence). After the deployment is done, you can access and test the function.
 
 [![Deploy to Azure](https://azuredeploy.net/deploybutton.png)](https://azuredeploy.net/)
